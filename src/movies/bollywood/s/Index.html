@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../main/css/lightslider.css">
+    <link rel="stylesheet" href="style.css" >
+    <script src="../../../main/js/JQuery3.3.1.js"></script>
+   <script src="../../../main/js/lightslider.js"> </script>
+    <title>Ashraf-khan</title>
+      <!--using FontAwesome--------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+ <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="../../../main/logo/logo.gif"/>
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="../../../../index.html">Home</a></li>
+            <li><a href="../../../Home/Web.html">TV Shows</a></li>
+            <li><a href="../../../Home/Hollywood.html">Hollywood</a></li>
+            <li><a href="../../../Home/Bollywood.html">Bollywood</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <section id="main">
+      
+      
+              <!--movies---------------------------->
+    <div class="movies-heading">
+        <h2>Silence: Can You Hear It (2021)</h2>
+    </div>
+    <section id="movies-list">
+       
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="s3.jpg">
+     </div>
+        </div>
+    </section>
+    
+     <div class="movies-heading">
+     </div>
+     <section id="movies-list">
+       </div>
+       <!--text--------->
+       <h3 align="center" >
+    Silence: Can You Hear It (2021)<br>
+Thriller | 26 March 2021 (India)<br>
+Director: Aban Bharucha Deohans
+Writer: Aban Bharucha Deohans<br>
+Stars: Manoj Bajpayee, Prachi Desai, Denzil Smith
+Summary: When everyone is hiding the truth, justice will thrive despite the silence. Prepare for a murder mystery that will keep you guessing till the end.<br>
+Countries: India<br>
+Languages: Hindi🎧 480p-720p
+       </h3>
+       </div>
+     </section>   
+    
+ 
+     <!--showcase----------------------->
+        <!--heading------------->
+        <h1 class="showcase-heading">Print</h1>
+        
+        <ul id="autoWidth" class="cs-hidden">
+              <li class="item-e">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="s2.jpg"/>
+               </div>
+                   </li>
+        
+        <!--box-1--------------------------->
+        <li class="item-a">
+            <!--showcase-box------------------->
+           <div class="showcase-box">
+               <img src="s3.jpg"/>
+           </div>
+               </li>
+          </ul>
+  
+  
+        
+        <ul id="autoWidth" class="cs-hidden">
+              <li class="item-e">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="s4.jpg"/>
+               </div>
+                   </li>
+        
+        <!--box-1--------------------------->
+        <li class="item-a">
+            <!--showcase-box------------------->
+           <div class="showcase-box">
+               <img src="s1.jpg"/>
+           </div>
+               </li>
+          </ul>
+        
+    </section>
+  <script>
+  
+  $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });  </script>
+ 
+    
+<!--btns--------------->
+    <div class="btns">
+        <a href="#">Download</a>
+        <a href="#">Download</a>
+    </div>
+ 
+
+    
+    <!--footer------------------>
+    <footer>
+        <p> © 2019-2021 All rights reserved | Design by AshrafKhan</p>
+        <p> <a id="yellow" href="https://info.flagcounter.com/Vj3R"><img src="https://s01.flagcounter.com/count2/Vj3R/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_17/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
+    </footer>
+</body>
+
+
+</html>

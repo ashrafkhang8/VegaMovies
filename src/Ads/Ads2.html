@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+    <script>
+    var seconds=0;
+    function got()
+    {
+      seconds +=1;
+      document.getElementById("got") .innerText="this is page Redirect in "+seconds+"seconds ...";
+    }
+    setInterval(got,1000) ;
+    
+    function Redirectpage()
+{
+  window.location="www.google.com"
+}
+setTimeout('Redirectpage()',30000);
+    </script>
+</head>
+
+<body>
+
+<center>
+  <h1>How to Redirect The webpage after 30 seconds...</h1>
+  
+  <h2>Using javascript</h2>
+ <hr>
+ <div id="got"></div>
+   <img src="gif/loading1.gif" height="50" width="50">
+</center>
+  
+  
+</body>
+
+</html>
